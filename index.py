@@ -9,8 +9,7 @@ app.register_blueprint(stats_bp)
 
 # Remove the `if __name__ == '__main__':` block
 # and run the app with WSGI server
-with app.app_context():
-	db.create_all()
+db.create_all()
 #if __name__ == "__main__":
 #    app.run()
 
