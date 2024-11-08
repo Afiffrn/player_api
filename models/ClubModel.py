@@ -14,5 +14,5 @@ class Club(db.Model):
             'name': self.name,
             'city': self.city,
             # Optionally include players if needed
-            'players': [player.to_dict() for player in self.players] 
+            #'players': [player.to_dict() for player in self.players] 
         }
