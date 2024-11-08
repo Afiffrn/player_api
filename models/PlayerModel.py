@@ -17,5 +17,5 @@ class Player(db.Model):
             'position': self.position,
             'club_id': self.club_id,
             # Optionally include stats if needed
-            'stats': [stat.to_dict() for stat in self.stats]
+            #'stats': [stat.to_dict() for stat in self.stats]
         }
