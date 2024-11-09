@@ -49,8 +49,8 @@ def add_stats():
         matches_played=new_stats_data['matches_played'],
         goals=new_stats_data['goals'],
         assists=new_stats_data['assists'],
-        yellow_cards=new_stats_data.get('yellow_cards'),
-        red_cards=new_stats_data.get('red_cards'),
+        yellow_cards=new_stats_data['yellow_cards'],
+        red_cards=new_stats_data['red_cards'],
     )
 
     db.session.add(new_stats)
