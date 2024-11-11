@@ -12,6 +12,9 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 @app.route('/')
 def home():
-    return "hello world!!!"
+    return "NAMA    : AFIF FRIZKIANTO NUGROHO
+            NIM     : 21.83.0652
+            KELAS   : 21TK02
+            PRODI   : TEKNIK KOMPUTER"
 
 app.app_context().push()
