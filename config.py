@@ -10,11 +10,12 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Inisialisasi objek database
 db = SQLAlchemy(app)
+
 @app.route('/')
 def home():
-    return "NAMA    : AFIF FRIZKIANTO NUGROHO
-            NIM     : 21.83.0652
-            KELAS   : 21TK02
-            PRODI   : TEKNIK KOMPUTER"
+    return """NAMA    : AFIF FRIZKIANTO NUGROHO
+NIM     : 21.83.0652
+KELAS   : 21TK02
+PRODI   : TEKNIK KOMPUTER"""
 
 app.app_context().push()
